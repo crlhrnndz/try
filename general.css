@@ -1,0 +1,35 @@
+
+body{
+    height: 3000px; 
+    margin: 0;
+    
+}
+i{
+    color: black;
+}
+
+@media (max-width: 1366px) and (min-width: 1200px) {
+    .for-you {
+        padding-left: 300px;
+        padding-top: 90px;
+    }
+}
+@media (max-width: 1199px) and (min-width: 1001px) {
+    .for-you{
+    padding-left: 300px;
+    padding-top: 90px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 700px) {
+    .for-you{
+    padding-left: 100px;
+    padding-top: 90px;
+    }
+}
+@media (max-width: 699px)  {
+    .for-you {
+        padding-left: 10px;
+        padding-top: 90px;
+    }
+}
+
